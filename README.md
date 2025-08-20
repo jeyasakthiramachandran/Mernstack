@@ -102,7 +102,7 @@ Authentication: Google OAuth
 
 Containerization: Docker
 
-Contributing
+## Contributing
 
 Contributions are welcome! Open an issue or submit a pull request.
 
