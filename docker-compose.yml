@@ -1,0 +1,16 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: ./BACKEND/Dockerfile  # Adjust path to your backend Dockerfile
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: ./book-store/Dockerfile  # Adjust path to your frontend Dockerfile
+    ports:
+      - "3000:3000"
+
