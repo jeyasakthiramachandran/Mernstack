@@ -1,0 +1,33 @@
+/* home.css */
+.container {
+    background-image: url('https://youthincmag.com/wp-content/uploads/2019/05/Book-selling.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .button {
+    background: orangered;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background: #ff5722;
+  }
+  
